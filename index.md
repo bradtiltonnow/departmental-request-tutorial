@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# Departmental Request App Tutorial
 
-You can use the [editor on GitHub](https://github.com/bradtiltonnow/departmental-request-tutorial/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+In this tutorial, you will learn how to use App Engine Studio to build a departmental request app in your [Personal Developer Instance (PDI)](https://developer.servicenow.com/dev.do#!/guides/rome/developer-program/pdi-guide/personal-developer-instance-guide-introduction) through step by step instructions and video.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can find a completed version of this app on GitHub: [departmental-request-app](https://github.com/ServiceNowDevProgram/departmental-request-app)
 
-### Markdown
+## Demo
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You can watch a 10-minute video of the app being built and tested, and each of the exercises in this tutorial have a more detailed video of someone working through the exercise.
 
-```markdown
-Syntax highlighted code block
+[![Overall app build video](https://img.youtube.com/vi/fy3RWHhlr0k/0.jpg)](https://www.youtube.com/watch?v=fy3RWHhlr0k)
 
-# Header 1
-## Header 2
-### Header 3
+## Prerequisites
 
-- Bulleted
-- List
+You will need a Rome PDI with the latest version of App Engine Studio installed. You can follow the instructions at the bottom of the [Rome AES blog post](https://devlink.sn/rome-aes?utm_source=app-tutorial) to upgrade AES to version 20.0.1 or to check the version.
 
-1. Numbered
-2. List
+## Use Case
 
-**Bold** and _Italic_ and `Code` text
+![app icon](images/deptreqicon.png)
 
-[Link](url) and ![Image](src)
-```
+The use case that you will work through in this app tutorial is a generic departmental request app. Many departments in an organization need a way to handle requests for something from outside of their department. This usually starts with a shared mailbox and a spreadsheet to track these requests, but that type of solution doesn't scale and can't be automated very well. In this use case, you will be building an app that transitions from the old email/spreadsheet to a catalog form on the portal, a dedicated experience for fulfillers, approval and email automation, and data security.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Objectives
 
-### Jekyll Themes
+In this tutorial, you will use App Engine Studio to build:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bradtiltonnow/departmental-request-tutorial/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+1. A data model with request and request type tables.
+1. A catalog experience for requesters.
+1. A workspace experience for approvers.
+1. An approval flow.
+1. A completed email flow.
+1. A security model with fulfiller and admin roles.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Proceed to Exercise 1 - Create the App](Exercise1-CreateApp.md)
