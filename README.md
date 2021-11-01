@@ -10,6 +10,8 @@ You can watch a 10-minute video of the app being built and tested, and each of t
 
 [![Overall app build video](https://img.youtube.com/vi/fy3RWHhlr0k/0.jpg)](https://www.youtube.com/watch?v=fy3RWHhlr0k)
 
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/fy3RWHhlr0k/" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
 ## Prerequisites
 
 You will need a Rome PDI with the latest version of App Engine Studio installed. You can follow the instructions at the bottom of the [Rome AES blog post](https://devlink.sn/rome-aes?utm_source=app-tutorial) to upgrade AES to version 20.0.1 or to check the version.
